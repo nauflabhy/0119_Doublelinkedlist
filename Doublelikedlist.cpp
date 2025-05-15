@@ -147,4 +147,8 @@ class DoubleLinkedList {
                 i++;
             }
         }
+
+        void revtraverse(){
+            
+        }
 };
