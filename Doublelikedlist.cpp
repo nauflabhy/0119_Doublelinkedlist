@@ -108,8 +108,10 @@ class DoubleLinkedList {
                 START = current->next; // Step 2a: START = START.next
                 if (START != NULL)
                 {
+                    START->prev = NULL; // Step 2b: START.prev = NULL
                 }
             }
+
 
         }
 };
