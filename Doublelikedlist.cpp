@@ -175,4 +175,16 @@ class DoubleLinkedList {
                 i++;
             }
         }
+
+        void searchData(){
+            if (START == NULL) {
+                cout << "\nEnter the roll number to search: ";
+            }
+
+            int rollNo;
+            cout << "\nEnter the roll number to serach: ";
+            cin >> rollNo;
+
+            Node *current = START;
+        }
 };
