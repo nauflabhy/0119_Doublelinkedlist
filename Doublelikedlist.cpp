@@ -38,7 +38,8 @@ class DoubleLinkedList {
                     return;
                 }
 
-
+                // Step4 : newNode.next = START
+                newNode->next = START;
             }
         }
 };
