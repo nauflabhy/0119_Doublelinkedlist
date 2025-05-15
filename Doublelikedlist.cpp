@@ -47,6 +47,10 @@ class DoubleLinkedList {
                 
                 // Step6 : newNode.prev = NULL
                 newNode->prev = NULL;
+
+                // Step7 : START = newNode
+                START = newNode;
+                return;
             }
         }
 };
