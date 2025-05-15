@@ -66,6 +66,15 @@ class DoubleLinkedList {
                 cout << "\nDuplicate roll number not allowed" << endl;
                 return;
             }
-            
+
+            // Step 9: Insertion between current and current->next
+            newNode->next = current->next; // Step9a : newNode.next = current.next
+            newNode->prev = current;       // Step9b : newNode.prev = current
+
+            // Insert last node
+            if(current->next != NULL)
+            {
+                
+            }
         }
 };
